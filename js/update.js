@@ -3,7 +3,7 @@ let updateAvailable = false; // false कर दो तो update hide
 
 function checkAppInstalled(){
     let isInstalled = false;
-    //let scheme = "intent://rankiya#Intent;scheme=rankiya;package=com.rankiya.app;end";
+    let scheme = "intent://rankiya#Intent;scheme=rankiya;package=com.rankiya.app;end";
     let start = Date.now();
 
     window.location.href = scheme;
@@ -18,6 +18,7 @@ function checkAppInstalled(){
     },1200);
 }
 
-window.onload = checkAppInstalled;
+//window.onload = checkAppInstalled;
+
 
 
