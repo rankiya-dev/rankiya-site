@@ -1,5 +1,5 @@
 // ADMIN CONTROL
-let updateAvailable = true; // false कर दो तो update hide
+let updateAvailable = false; // false कर दो तो update hide
 
 function checkAppInstalled(){
     let isInstalled = false;
@@ -19,3 +19,4 @@ function checkAppInstalled(){
 }
 
 window.onload = checkAppInstalled;
+
